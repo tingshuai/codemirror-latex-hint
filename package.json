@@ -4,7 +4,6 @@
  "description": "An IntelliSense-like hinter for CodeMirror",
  "main": "lib/index.js",
  "peerDependencies": {
-  "codemirror": ">5.0.0"
  },
  "devDependencies": {
   "@types/codemirror": "0.0.82",
@@ -32,6 +31,5 @@
  },
  "homepage": "https://github.com/jun-sheaf/codemirror-latex-hint#readme",
  "dependencies": {
-  "codemirror": "^5.51.0"
  }
 }

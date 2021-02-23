@@ -1,4 +1,4 @@
-import CodeMirror from "codemirror";
+import CodeMirror, { Editor } from "codemirror";
 import "codemirror/addon/hint/show-hint";
 interface LaTeXMacro {
     text: string;
@@ -9,5 +9,5 @@ interface LaTeXMacro {
  * @param cm CodeMirror instance
  * @param macros A list of LaTeX macros
  */
-declare const LaTeXHint: (cm: CodeMirror.Editor, macros: LaTeXMacro[]) => CodeMirror.Hints;
+declare const LaTeXHint: (cm: Editor, macros: LaTeXMacro[]) => CodeMirror.Hints;
 export default LaTeXHint;
